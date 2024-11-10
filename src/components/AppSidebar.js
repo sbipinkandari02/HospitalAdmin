@@ -32,7 +32,7 @@ const AppSidebar = () => {
     >
       <CSidebarHeader className="border-bottom">
         <CSidebarBrand to="/">
-          <strong>ASR LABS LOGO</strong>
+          <strong>XYZ LOGO</strong>
         </CSidebarBrand>
         <CCloseButton
           className="d-lg-none"
@@ -41,7 +41,7 @@ const AppSidebar = () => {
         />
       </CSidebarHeader>
       <AppSidebarNav items={navigation} />
-      <CSidebarFooter className="border-top d-none d-lg-flex"></CSidebarFooter>
+      {/* <CSidebarFooter className="border-top d-none d-lg-flex"></CSidebarFooter> */}
     </CSidebar>
   )
 }
